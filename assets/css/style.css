@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* color: #4F4F4F; */
+}
+.container {
+    @apply mx-auto;
+    max-width: 1200px;
+}
+.font-size-28 {
+    font-size: 32px;
+}
+.font-size-70 {
+    font-size: 60px;
+}
+.bs-button-bg {
+    background-color: #4F4F4F;
+}
+.bs-icon-box {
+    width: 60px;
+    height: 60px;
+}
+.bs-orange-bg {
+    background-color: #FF5C00;
+}
+.bs-orange-color {
+    color: #FF5C00;
+}
+.bs-green-bg {
+    background-color: #27AE60;
+}
+.bs-green-color {
+    color: #27AE60;
+}
+.slider-bg {
+    background-color: #EBFAEB;
+}
+
+.hero-slider ul.slick-dots {
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    /* margin-top: -32px; */
+}
+
+.hero-slider ul.slick-dots li{
+    border-width: 1px;
+    height: 15px;
+    width: 15px;
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    padding: 2px;
+}
+.hero-slider ul.slick-dots button {
+    text-indent: -9999px;
+    background-color: #d1ddd2;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    
+}
+
+.hero-slider ul.slick-dots li.slick-active {
+    border-color: #FF5C00;
+}
+
+.hero-slider ul.slick-dots li.slick-active button {
+    background-color: #FF5C00;
+}
+
+.category-carousel .slick-slide > div {
+    margin-right: 20px;
+}
+
+
+.category-carousel svg.left {
+    position: absolute;
+    right: 80px;
+    top: -84px;
+    background-color: #ddd;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 14px;
+    cursor: pointer;
+
+}
+
+.category-carousel svg.right{
+    position: absolute;
+    right: 20px;
+    top: -84px;
+    background-color: #ddd;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 14px;
+    cursor: pointer;
+}
+
+.category-carousel svg.left:hover, svg.right:hover {
+    background-color: #27AE60;
+    color: #fff;
+}
+
+.promo-bg-1 {
+    background-image: url(../img/promo-bg-1.png);
+    background-size: cover;
+}
+
+.promo-bg-2 {
+    background: url(../img/promo-bg-2.png);
+    background-size: cover;
+
+}
+
+.product-hover {
+    display: none;
+}
+
+.product:hover .product-hover{
+    display: flex;
+}
+
+
+
+
+
