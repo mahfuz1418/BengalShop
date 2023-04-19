@@ -21,15 +21,13 @@
   };
   </script>
   
-  <!-- <style scoped>
+  <style scoped>
   .accordion {
     list-style: none;
     margin: 0;
     padding: 0;
   
-    &__item:last-child {
-      border-bottom: none;
-    }
+    
   }
-  </style> -->
+  </style>
   

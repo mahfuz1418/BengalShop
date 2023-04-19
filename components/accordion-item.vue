@@ -66,7 +66,6 @@
   <style scoped>
   .accordion__item {
     cursor: pointer;
-    padding: 10px 20px 10px 40px;
     border-bottom: 1px solid #ebebeb;
     position: relative;
   }
@@ -75,6 +74,7 @@
     display: flex;
     justify-content: space-between;
   }
+  
   
   .accordion-enter-active,
   .accordion-leave-active {

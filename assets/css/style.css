@@ -12,6 +12,9 @@ body {
 .font-size-28 {
     font-size: 32px;
 }
+.font-size-14 {
+    font-size: 14px;
+}
 .font-size-70 {
     font-size: 60px;
 }
@@ -125,7 +128,20 @@ body {
     display: flex;
 }
 
+.bs-light-green-bg{
+    background-color: #EBFAEB;
+    ;
+}
 
+.category-bg {
+    background-image: url(../img/herotwo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.bs-modal-body {
+    max-width: 1000px;
+}
 
 
 
